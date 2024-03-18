@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.todo-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.completed {
+    background-color: #e0e0e0;
+}
+#add-form .form-control {
+    margin-top: 1em;
+}
+.form-control label {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+#add-form input, textarea {
+    padding: .5em;
+    font-size: 18px;
+    border-radius: .4em;
+    width: 100%;
+}
+.error-message {
+    color: red;
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 0;
+}
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="./site.css">
+        <script src="todo-domain.js"></script>
+        <script src="todo-ui.js"></script>
+    </head>
+    <body>
+        <div class="todo-container">
+            <h1>To-Do List</h1>
+            <form id="add-form">
+                <div class="form-control">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" placeholder="Title" /> 
+                    <p id="title-error" class="error-message"></p>
+                </div>
+                <div class="form-control">
+                    <label for="notes">Notes</label>
+                    <textarea id="notes" placeholder="Notes" rows="4" ></textarea>
+                    <p id="notes-error" class="error-message"></p>
+                </div>
+                <input type="submit" value="Add Task" />
+            </form>
+            <div id="todos">
+                <div class="todo-item">
+                    <h3>Buy Groceries</h3>
+                    <p> milk break creackers</p>
+                    <p>Completed: No</p>
+                    <button>Mark Complete</button>
+                </div>
+                <div class="todo-item">
+                    <h3>Finish Exam</h3>
+                    <p>ace it</p>
+                    <p>Completed: Yes</p>
+                    <button>Mark Incomplete</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
